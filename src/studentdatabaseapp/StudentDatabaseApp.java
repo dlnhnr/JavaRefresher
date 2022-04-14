@@ -12,7 +12,6 @@ public class StudentDatabaseApp {
 		int numOfStudents = in.nextInt();
 		Student[] students = new Student[numOfStudents];
 		
-
 		// Create n number of students
 		for (int n = 0; n < numOfStudents; n++) {
 			students[n] = new Student();
